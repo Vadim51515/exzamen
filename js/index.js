@@ -1,31 +1,3 @@
-const jsonWrite = () =>{
-	var obj = {
-   table: []
-};
-obj.table.push({id: 1, square:2});
-var fs = require('fs');
-fs.writeFile('data.json', json, 'utf8', callback);
-var mydata = JSON.parse(data);
-console.log(mydata);
-}
-
-
-
-
-
-
-alert(111)
-
-
-
-
-
-
-
-
-
-
-
 let a 
 let b
 let c
