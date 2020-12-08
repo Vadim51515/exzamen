@@ -10,29 +10,48 @@ require_once('bd.php');
 
 </head>
 <body>
-	<div class="full">
+	<div class="full" id="full">
 		<div class="header">
 			<h1>Наш сайт</h1>
 		</div>
 
 		<div class="main">
 			<div class="navBar" onclick="click(222)">
-				<button>aaa</button>
+				<button class="signUp" onclick="openPopup()">Записаться к нам</button>
 			</div>
 			<div class="content">
 
 				<div class="div">
 					111
 				</div>
-
-
-
 			</div>
-		
+		</div>
+	</div>
+	<div id="planesPopup">
+		<div class='popup' id="popup">
+		 	<div class="whiteBox">
+		 		<button class="close" onclick='setPopup()'>Закрыть</button>
+
+		 		<p class="name">ФИО</p>
+		 		<input class="popupInput" type="" name="" value="" placeholder="">
+
+		 		<p class="name">Адрес</p>
+		 		<input class="popupInput" type="" name="" value="">
+
+		 		<p class="name">""</p>
+		 		<input class="popupInput" type="" name="" value="">
+
+		 		<p class="name">""</p>
+		 		<input class="popupInput" type="" name="" value="">
+
+		 		<p class="name">Коментарий</p>
+		 		<textarea class="popupInput"></textarea>
+
+		 		<button class="add">Отправить</button> 
+		 	</div>
 		</div>
 	</div>
 	<script src="../js/index.js" ></script>
-	<script type="text/javascript" src="../json/data.json"></script>
 </body>
 
 </html>
