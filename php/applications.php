@@ -19,13 +19,14 @@ require_once('bd.php');
 			<div class="navBar" onclick="click(222)">
 				<button class="signUp" onclick="openPopup()">Записаться к нам</button>
 
-				<a href="./applications.php"><button class="applications">Заявки</button> </a>	
+				<a href="./index.php"><button class="applications">Главная</button> </a>	
 			</div>
 			<div class="content">
-
-				<div class="div">
-				
+				<h1>Заявки</h1>
+				<div class="bid" id="bid">
+					<p id="fio">ФИО</p>
 				</div>
+				<button onclick="fio()">abc</button>
 			</div>
 		</div>
 	</div>
@@ -54,20 +55,10 @@ require_once('bd.php');
 		</div>
 	</div>
 	<script src="../js/index.js" ></script>
+	<script src="../js/application.js"></script>
+
+
+
 </body>
 
 </html>
-
-
-				<!-- <div class="while">
-				<?
-                      $rows = getNews();
-                      while ($row = $rows->fetch_assoc()) {
-                        ?>
-                    <div class=" block  news">
-                    <h1><?=$row['name'] ?></h1>
-                    <p><?=$row['text'] ?></p>
-                        <p class="date"><?=$row['Data'] ?></p>
-                    </div>
-                         <?}?>   
-                    </div> -->

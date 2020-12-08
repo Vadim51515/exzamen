@@ -15,7 +15,6 @@ document.body.style.overflow = 'hidden'
 };
 
 
-
 // const  test  = (abc) =>{
 // 		for (let i = 0; a > i; i++ ) {
 // 			var elem = document.getElementById("test").innerHTML = `<div>
