@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+}
+h1{
+	margin: 0;
+
+}
+.main{
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+}
+.header{
+	width: 100%;
+	background-color: #f1f1f1;
+}
+.navBar{
+	width: 100%;
+	background-color: green;
+}
+.content{
+	background-color: yellow;
+	width: 100%;
+}
+.div{
+	margin-bottom: 30px;
+}
